@@ -15,5 +15,6 @@ Step5 = raw_data[5066:5843]
 
 Step6 = raw_data[6490:6910]
 
+#데이터에다가 1/64을 해줘야한다. /g는 HAR에서 기본 단위로 하므로 g는 곱하지말자.
 
 print(Step1.shape)
